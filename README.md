@@ -11,7 +11,7 @@ Start the stream listener app:
 ./gradlew bootRun
 ```
 
-Generate messages using RIOT:
+Generate messages using [RIOT Gen](https://developer.redislabs.com/riot/riot-gen.html):
 ```shell
 riot-gen import --end 10000000 id=#index xadd --keyspace events
 ```
